@@ -1,0 +1,22 @@
+id,datetime,website,country
+1,2024-05-18 08:30:00,facebook.com,AR
+2,2024-05-19 09:00:00,linkedin.com,CL
+3,2024-05-21 09:30:00,youtube.com,UY
+4,2024-05-20 10:00:00,facebook.com,CO
+5,2024-05-22 10:30:00,linkedin.com,MX
+6,2024-05-23 11:00:00,youtube.com,AR
+7,2024-05-18 11:30:00,facebook.com,CL
+8,2024-05-19 12:00:00,linkedin.com,UY
+9,2024-05-20 12:30:00,youtube.com,CO
+10,2024-05-21 13:00:00,facebook.com,MX
+11,2024-05-22 13:30:00,linkedin.com,AR
+12,2024-05-23 14:00:00,youtube.com,CL
+13,2024-05-18 14:30:00,facebook.com,UY
+14,2024-05-19 15:00:00,linkedin.com,CO
+15,2024-05-20 15:30:00,youtube.com,MX
+16,2024-05-21 16:00:00,facebook.com,AR
+17,2024-05-22 16:30:00,linkedin.com,CL
+18,2024-05-23 17:00:00,youtube.com,UY
+19,2024-05-18 17:30:00,facebook.com,CO
+20,2024-05-19 18:00:00,linkedin.com,MX
+

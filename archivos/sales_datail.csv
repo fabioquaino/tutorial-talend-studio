@@ -1,0 +1,61 @@
+ID,Date,Product,Quantity,UnitPrice
+1,2024-01-01,Keyboard Razer BlackWidow,10,15.99
+2,2024-01-01,Mouse Logitech MX Master 3,15,12.50
+3,2024-01-02,Monitor Dell UltraSharp U3415W,5,199.99
+4,2024-01-02,Keyboard Corsair K95 RGB Platinum,8,15.99
+5,2024-01-02,Mouse SteelSeries Rival 600,12,12.50
+6,2024-01-03,Monitor LG 27UK850-W,3,199.99
+7,2024-01-03,Keyboard ASUS ROG Strix Scope,6,15.99
+8,2024-01-03,Mouse Razer DeathAdder Elite,10,12.50
+9,2024-01-05,Keyboard HyperX Alloy Elite RGB,10,15.99
+10,2024-01-05,Mouse Logitech G Pro Wireless,15,12.50
+11,2024-01-05,Monitor Samsung Odyssey G7,5,199.99
+12,2024-01-05,Keyboard SteelSeries Apex Pro,8,15.99
+13,2024-01-07,Mouse Corsair Dark Core RGB Pro,12,12.50
+14,2024-01-07,Monitor MSI Optix MAG341CQ,3,199.99
+15,2024-01-07,Keyboard Ducky One 2 Mini,6,15.99
+16,2024-01-09,Mouse Razer Basilisk Ultimate,10,12.50
+17,2024-01-09,Monitor BenQ EX3501R,5,199.99
+18,2024-01-09,Keyboard Logitech G915 TKL,10,15.99
+19,2024-01-11,Mouse Glorious Model O,15,12.50
+20,2024-01-11,Monitor Acer Predator X34,5,199.99
+21,2024-01-11,Keyboard Corsair K70 RGB MK.2,8,15.99
+22,2024-01-13,Mouse SteelSeries Sensei 310,12,12.50
+23,2024-01-13,Monitor AOC CQ32G1,3,199.99
+24,2024-01-13,Keyboard Razer Huntsman Elite,6,15.99
+25,2024-01-15,Mouse Logitech G502 Hero,10,12.50
+26,2024-01-15,Monitor ViewSonic Elite XG270QG,5,199.99
+27,2024-01-15,Keyboard HyperX Alloy FPS RGB,10,15.99
+28,2024-01-17,Mouse Razer Naga Trinity,15,12.50
+29,2024-01-17,Monitor Philips Momentum 436M6VBPAB,5,199.99
+30,2024-01-17,Keyboard Ducky One 2 SF,8,15.99
+31,2024-01-19,Mouse Corsair Scimitar RGB Elite,12,12.50
+32,2024-01-19,Monitor HP Omen X 27,3,199.99
+33,2024-01-19,Keyboard Cooler Master CK552,6,15.99
+34,2024-01-21,Mouse Logitech MX Vertical,10,12.50
+35,2024-01-21,Monitor LG 34GK950F-B,5,199.99
+36,2024-01-21,Keyboard SteelSeries Apex 7,10,15.99
+37,2024-01-23,Mouse ASUS ROG Gladius II,15,12.50
+38,2024-01-23,Monitor Dell Alienware AW3420DW,5,199.99
+39,2024-01-23,Keyboard Razer BlackWidow Elite,8,15.99
+40,2024-01-25,Mouse Corsair Harpoon RGB Wireless,12,12.50
+41,2024-01-25,Monitor MSI Optix MAG271CQR,3,199.99
+42,2024-01-25,Keyboard Logitech G513,6,15.99
+43,2024-01-27,Mouse SteelSeries Rival 3,10,12.50
+44,2024-01-27,Monitor ASUS TUF Gaming VG27AQ,5,199.99
+45,2024-01-27,Keyboard HyperX Alloy Origins,10,15.99
+46,2024-01-29,Mouse Razer Viper Ultimate,15,12.50
+47,2024-01-29,Monitor Samsung Odyssey G9,5,199.99
+48,2024-01-29,Keyboard Corsair K63 Wireless,8,15.99
+49,2024-01-31,Mouse Logitech G903 Lightspeed,12,12.50
+50,2024-01-31,Monitor BenQ PD3200U,3,199.99
+51,2024-01-31,Keyboard Razer Ornata V2,6,15.99
+52,2024-02-01,Mouse Glorious Model D,10,12.50
+53,2024-02-01,Keyboard SteelSeries Apex 5,10,15.99
+54,2024-02-01,Monitor Dell S3221QS,5,199.99
+55,2024-02-03,Mouse Razer DeathAdder V2,15,12.50
+56,2024-02-03,Keyboard Logitech G413,8,15.99
+57,2024-02-03,Monitor LG 32UD99-W,3,199.99
+58,2024-02-05,Mouse Corsair Ironclaw RGB Wireless,12,12.50
+59,2024-02-05,Monitor MSI Optix MAG240VC,3,199.99
+60,2024-02-05,Keyboard ASUS ROG Strix Flare,6,15.99
