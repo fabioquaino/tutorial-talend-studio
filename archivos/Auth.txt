@@ -1,0 +1,8 @@
+// OBTENER USUARIO Y CONTRASEÑA DE HEADER
+String authorizationOriginal = (((javax.ws.rs.core.MultivaluedMap<String, String>) ((java.util.Map<String, Object>) globalMap.get("restRequest")).get("ALL_HEADER_PARAMS")).getFirst("Authorization")).replace("Basic ", "");
+String base64EncodedString = authorizationOriginal;
+byte[] decodedBytes = javax.xml.bind.DatatypeConverter.parseBase64Binary(base64EncodedString);
+String decodedString = new String(decodedBytes);
+String[] values = decodedString.split(":", 2);
+output_row.username = values[0];
+output_row.password = values[1];

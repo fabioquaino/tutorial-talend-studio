@@ -1,7 +1,38 @@
+DESCARGAR JAVA JDK
+https://www.oracle.com/ar/java/technologies/downloads/#java21
 ---------------------------------------------------------
 DESCARGAR TALEND ESB
 https://deilink.fr/#/download
 ---------------------------------------------------------
-SERVICIO WEB
-https://jsonplaceholder.typicode.com/posts/{id}
+WINRAR (U OTRA FORMA DE DESCOMRIMIR ARCHIVOS)
+https://www.winrar.es/descargas
 ---------------------------------------------------------
+SOLUCIÓN DE PROBLEMAS COMUNES AL INSTALAR TALEND
+https://www.youtube.com/watch?v=bqja_FbSnXI&ab_channel=BenVanArragon
+---------------------------------------------------------
+SERVICIO WEB
+https://jsonplaceholder.typicode.com/posts/
+---------------------------------------------------------
+DOCKER
+https://www.docker.com/
+---------------------------------------------------------
+DOCKER COMPOSE
+https://docs.docker.com/compose/install/
+---------------------------------------------------------
+DESCARGAR DBEAVER
+https://dbeaver.io/download/
+---------------------------------------------------------
+CRONTAB CONFIGURACIÓN
+crontab.guru/
+---------------------------------------------------------
+POSTMAN (REST)
+https://www.postman.com/
+---------------------------------------------------------
+SOAPUI (SOAP)
+https://www.soapui.org/
+---------------------------------------------------------
+DOCUMENTO DE DESPLIEGUE CON RUNTIME
+https://docs.google.com/document/d/1wvj03kUNUu4wu2uRVuhYgll_t7cxuT4uUkvMrow4dO4/edit?usp=sharing
+---------------------------------------------------------
+REPOSITORIO GIT - DEPLOY TALEND ESB CON DOCKER
+https://github.com/fabioquaino/talend-esb-deploy

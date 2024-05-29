@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="EjemploServcio-feature">
+    <feature name="EjemploServcio-feature" version="0.1.0">
+        <bundle>mvn:org.example.tutorial_talend_studio.job/EjemploServcioPortType_EjemploServcioOperation-bundle/0.1.0</bundle>
+        <bundle>mvn:org.example.tutorial_talend_studio.service/EjemploServcio-control-bundle/0.1.0</bundle>
+        <config name="EjemploServcio.talendcontext.Default" override="true">
+</config>
+    </feature>
+</features>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_8_p6IBhKEe-jZKB-IKUnIA" name="paises" dataPackage="_8_p6IRhKEe-jZKB-IKUnIA" Server="Localhost 127.0.0.1" FilePath="C:/Users/fabio/OneDrive/Escritorio/tutorial-talend-studio/archivos/countries.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_8_p6IRhKEe-jZKB-IKUnIA" name="default" dataManager="_8_p6IBhKEe-jZKB-IKUnIA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_8_p6IhhKEe-jZKB-IKUnIA" id="_3vZhcBhKEe-jZKB-IKUnIA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8_p6IxhKEe-jZKB-IKUnIA" label="id" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8_p6JBhKEe-jZKB-IKUnIA" label="nombre" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_8_p6JRhKEe-jZKB-IKUnIA" label="continente" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

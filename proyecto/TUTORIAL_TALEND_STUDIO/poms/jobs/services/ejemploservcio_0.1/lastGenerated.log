@@ -1,0 +1,100 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/fabio/OneDrive/Escritorio/TOS_ESB-20211109_1610-V8.0.1/Studio/plugins/org.eclipse.m2e.maven.runtime.slf4j.simple_1.18.0.20210402-1458/jars/slf4j-simple-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [file:/C:/Users/fabio/OneDrive/Escritorio/TOS_ESB-20211109_1610-V8.0.1/Studio/configuration/org.eclipse.osgi/446/0/.cp/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] TUTORIAL_TALEND_STUDIO EjemploServcioPortType_EjemploServcioOperation-0.1.0 (0.1,Job Designs) Bundle [jar]
+[INFO] TUTORIAL_TALEND_STUDIO EjemploServcio-0.1.0 (0.1,Services) Kar     [pom]
+[INFO] TUTORIAL_TALEND_STUDIO EjemploServcio-0.1.0 (0.1,Services) Control Bundle [jar]
+[INFO] TUTORIAL_TALEND_STUDIO EjemploServcio-0.1.0 (0.1,Services) Feature [pom]
+[INFO] 
+[INFO] --< org.example.tutorial_talend_studio.job:EjemploServcioPortType_EjemploServcioOperation-bundle >--
+[INFO] Building TUTORIAL_TALEND_STUDIO EjemploServcioPortType_EjemploServcioOperation-0.1.0 (0.1,Job Designs) Bundle 0.1.0 [1/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ EjemploServcioPortType_EjemploServcioOperation-bundle ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ EjemploServcioPortType_EjemploServcioOperation-bundle ---
+[INFO] Not compiling main sources
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ EjemploServcioPortType_EjemploServcioOperation-bundle ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ EjemploServcioPortType_EjemploServcioOperation-bundle ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20:test (default-test) @ EjemploServcioPortType_EjemploServcioOperation-bundle ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ EjemploServcioPortType_EjemploServcioOperation-bundle ---
+[INFO] Building jar: C:\Users\fabio\OneDrive\Escritorio\TOS_ESB-20211109_1610-V8.0.1\Studio\workspace\TUTORIAL_TALEND_STUDIO\poms\jobs\process\SERVICIOS\ejemploservcioporttype_ejemploservciooperation_0.1\target\EjemploServcioPortType_EjemploServcioOperation-bundle-0.1.0.jar
+[INFO] 
+[INFO] --- maven-assembly-plugin:3.0.0:single (default) @ EjemploServcioPortType_EjemploServcioOperation-bundle ---
+[INFO] Reading assembly descriptor: C:\Users\fabio\OneDrive\Escritorio\TOS_ESB-20211109_1610-V8.0.1\Studio\workspace\TUTORIAL_TALEND_STUDIO\poms\jobs\process\SERVICIOS\ejemploservcioporttype_ejemploservciooperation_0.1/src/main/assemblies/assembly.xml
+[WARNING] The following patterns were never triggered in this artifact inclusion filter:
+o  'org.example.tutorial_talend_studio.job:EjemploServcioPortType_EjemploServcioOperation:jar:0.1.0'
+
+[INFO] Building jar: C:\Users\fabio\OneDrive\Escritorio\TOS_ESB-20211109_1610-V8.0.1\Studio\workspace\TUTORIAL_TALEND_STUDIO\poms\jobs\process\SERVICIOS\ejemploservcioporttype_ejemploservciooperation_0.1\target\EjemploServcioPortType_EjemploServcioOperation-bundle-0.1.0.jar
+[WARNING] Configuration option 'appendAssemblyId' is set to false.
+Instead of attaching the assembly file: C:\Users\fabio\OneDrive\Escritorio\TOS_ESB-20211109_1610-V8.0.1\Studio\workspace\TUTORIAL_TALEND_STUDIO\poms\jobs\process\SERVICIOS\ejemploservcioporttype_ejemploservciooperation_0.1\target\EjemploServcioPortType_EjemploServcioOperation-bundle-0.1.0.jar, it will become the file for main project artifact.
+NOTE: If multiple descriptors or descriptor-formats are provided for this project, the value of this file will be non-deterministic!
+[WARNING] Replacing pre-existing project main-artifact file: C:\Users\fabio\OneDrive\Escritorio\TOS_ESB-20211109_1610-V8.0.1\Studio\workspace\TUTORIAL_TALEND_STUDIO\poms\jobs\process\SERVICIOS\ejemploservcioporttype_ejemploservciooperation_0.1\target\EjemploServcioPortType_EjemploServcioOperation-bundle-0.1.0.jar
+with assembly file: C:\Users\fabio\OneDrive\Escritorio\TOS_ESB-20211109_1610-V8.0.1\Studio\workspace\TUTORIAL_TALEND_STUDIO\poms\jobs\process\SERVICIOS\ejemploservcioporttype_ejemploservciooperation_0.1\target\EjemploServcioPortType_EjemploServcioOperation-bundle-0.1.0.jar
+[INFO] 
+[INFO] -----< org.example.tutorial_talend_studio.service:EjemploServcio >------
+[INFO] Building TUTORIAL_TALEND_STUDIO EjemploServcio-0.1.0 (0.1,Services) Kar 0.1.0 [2/4]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --< org.example.tutorial_talend_studio.service:EjemploServcio-control-bundle >--
+[INFO] Building TUTORIAL_TALEND_STUDIO EjemploServcio-0.1.0 (0.1,Services) Control Bundle 0.1.0 [3/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ EjemploServcio-control-bundle ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ EjemploServcio-control-bundle ---
+[INFO] Not compiling main sources
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ EjemploServcio-control-bundle ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ EjemploServcio-control-bundle ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20:test (default-test) @ EjemploServcio-control-bundle ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ EjemploServcio-control-bundle ---
+[INFO] Building jar: C:\Users\fabio\OneDrive\Escritorio\TOS_ESB-20211109_1610-V8.0.1\Studio\workspace\TUTORIAL_TALEND_STUDIO\poms\jobs\services\ejemploservcio_0.1\target\EjemploServcio-control-bundle-0.1.0.jar
+[INFO] 
+[INFO] --< org.example.tutorial_talend_studio.service:EjemploServcio-feature >--
+[INFO] Building TUTORIAL_TALEND_STUDIO EjemploServcio-0.1.0 (0.1,Services) Feature 0.1.0 [4/4]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- osgihelper-maven-plugin:8.0.1:generate (feature-helper) @ EjemploServcio-feature ---
+[INFO] Resolve mvn:org.example.tutorial_talend_studio.job/EjemploServcioPortType_EjemploServcioOperation-bundle/0.1.0
+[INFO] Resolve mvn:org.example.tutorial_talend_studio.service/EjemploServcio-control-bundle/0.1.0
+[INFO] 
+[INFO] --- karaf-maven-plugin:4.2.10:kar (create-kar) @ EjemploServcio-feature ---
+[INFO] Building jar: C:\Users\fabio\OneDrive\Escritorio\TOS_ESB-20211109_1610-V8.0.1\Studio\workspace\TUTORIAL_TALEND_STUDIO\poms\jobs\services\ejemploservcio_0.1\target\EjemploServcio-feature-0.1.0.kar
+[WARNING] Your project should use the "kar" packaging or configure a "classifier" for kar attachment
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for TUTORIAL_TALEND_STUDIO EjemploServcio-0.1.0 (0.1,Services) Kar 0.1.0:
+[INFO] 
+[INFO] TUTORIAL_TALEND_STUDIO EjemploServcioPortType_EjemploServcioOperation-0.1.0 (0.1,Job Designs) Bundle SUCCESS [  2.255 s]
+[INFO] TUTORIAL_TALEND_STUDIO EjemploServcio-0.1.0 (0.1,Services) Kar SUCCESS [  0.001 s]
+[INFO] TUTORIAL_TALEND_STUDIO EjemploServcio-0.1.0 (0.1,Services) Control Bundle SUCCESS [  0.617 s]
+[INFO] TUTORIAL_TALEND_STUDIO EjemploServcio-0.1.0 (0.1,Services) Feature SUCCESS [  0.950 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.717 s
+[INFO] Finished at: 2024-05-29T15:54:33-03:00
+[INFO] ------------------------------------------------------------------------

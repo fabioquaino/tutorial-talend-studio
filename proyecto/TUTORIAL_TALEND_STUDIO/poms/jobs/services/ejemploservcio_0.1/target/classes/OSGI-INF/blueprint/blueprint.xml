@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0">
+
+ 
+ 
+ 
+ 
+    <jaxws:endpoint xmlns:jaxws="http://cxf.apache.org/blueprint/jaxws"
+            id="EjemploServcio"
+            implementor="#genericServiceProvider"
+            xmlns:tns="http://www.talend.org/service/"
+            serviceName="tns:EjemploServcio"
+            endpointName="tns:EjemploServcioPort"
+            address="/EjemploServcio"
+            wsdlLocation="classpath:/EjemploServcio_0.1.wsdl">
+        <jaxws:properties>
+   
+            <entry key="use.service.registry" value="false" />
+         </jaxws:properties>
+
+        <jaxws:features>
+                 <bean class="org.apache.cxf.metrics.MetricsFeature" />
+        </jaxws:features>
+    </jaxws:endpoint>
+
+
+
+    <reference interface="org.talend.esb.job.controller.ProviderFactory" id="providerFactory" />
+    <bean id="genericServiceProvider" factory-ref="providerFactory" factory-method="create">
+        <argument>
+            <map>
+                <entry key="EjemploServcioOperation" value="EjemploServcioPortType_EjemploServcioOperation" />
+             </map>
+        </argument>
+         <property name="extractHeaders" value="true" />
+    </bean>
+    <service ref="genericServiceProvider" interface="org.osgi.service.cm.ManagedService">
+        <service-properties>
+            <entry key="service.pid" value="EjemploServcio" />
+        </service-properties>
+    </service>
+
+</blueprint>

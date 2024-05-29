@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="EjemploServcio"
+		xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+		xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+		xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		xmlns:tns="http://www.talend.org/service/"
+		targetNamespace="http://www.talend.org/service/">
+
+	<wsdl:types>
+		<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+			targetNamespace="http://www.talend.org/service/">
+			
+			<xsd:element name="EjemploServcioOperationRequest">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="nombre" type="xsd:string"></xsd:element>
+						<xsd:element name="apellido" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			
+			<xsd:element name="EjemploServcioOperationResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="nombre_completo" type="xsd:string"></xsd:element>
+						<xsd:element name="edad" type="xsd:integer"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+
+			<xsd:element name="op2">
+				<xsd:complexType>
+					<xsd:sequence>
+
+						<xsd:element name="in" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="op2Response">
+				<xsd:complexType>
+					<xsd:sequence>
+
+						<xsd:element name="out" type="xsd:string"></xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:schema>
+	</wsdl:types>
+
+	<wsdl:message name="EjemploServcioOperationRequest">
+		<wsdl:part name="parameters" element="tns:EjemploServcioOperationRequest"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="EjemploServcioOperationResponse">
+		<wsdl:part name="parameters" element="tns:EjemploServcioOperationResponse"></wsdl:part>
+	</wsdl:message>
+
+	<wsdl:message name="op2Request">
+		<wsdl:part name="parameters" element="tns:op2"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="op2Response">
+		<wsdl:part name="parameters" element="tns:op2Response"></wsdl:part>
+	</wsdl:message>
+	<wsdl:portType name="EjemploServcioPortType">
+		<wsdl:operation name="EjemploServcioOperation">
+			<wsdl:input message="tns:EjemploServcioOperationRequest"></wsdl:input>
+			<wsdl:output message="tns:EjemploServcioOperationResponse"></wsdl:output>
+		</wsdl:operation>
+	</wsdl:portType>
+
+	<wsdl:binding name="EjemploServcioBinding" type="tns:EjemploServcioPortType">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+		<wsdl:operation name="EjemploServcioOperation">
+			<soap:operation soapAction="http://www.talend.org/service/EjemploServcioOperation" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+
+	<wsdl:service name="EjemploServcio">
+		<wsdl:port name="EjemploServcioPort" binding="tns:EjemploServcioBinding">
+			<soap:address location="http://localhost:8090/services/EjemploServcio" />
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,23 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/fabio/OneDrive/Escritorio/TOS_ESB-20211109_1610-V8.0.1/Studio/plugins/org.eclipse.m2e.maven.runtime.slf4j.simple_1.18.0.20210402-1458/jars/slf4j-simple-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [file:/C:/Users/fabio/OneDrive/Escritorio/TOS_ESB-20211109_1610-V8.0.1/Studio/configuration/org.eclipse.osgi/446/0/.cp/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --< org.example.tutorial_talend_studio.job:EjemploServcioPortType_EjemploServcioOperation-bundle >--
+[INFO] Building TUTORIAL_TALEND_STUDIO EjemploServcioPortType_EjemploServcioOperation-0.1.0 (0.1,Job Designs) Bundle 0.1.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ EjemploServcioPortType_EjemploServcioOperation-bundle ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ EjemploServcioPortType_EjemploServcioOperation-bundle ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.881 s
+[INFO] Finished at: 2024-05-29T15:54:26-03:00
+[INFO] ------------------------------------------------------------------------

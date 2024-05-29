@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-Name: EjemploServcio-control-bundle
+Bundle-SymbolicName: tutorial_talend_studio.EjemploServcio-control-bundl
+ e
+Bundle-Version: 0.1.0
+Bundle-ManifestVersion: 2
+Created-By: Talend Open Studio for ESB (tos_esb_8.0.1.20211105_1204)
+Import-Package: javax.xml.ws,org.talend.esb.job.controller,org.osgi.serv
+ ice.cm;version="[1.3,2)",org.apache.cxf,org.apache.cxf.metrics
+

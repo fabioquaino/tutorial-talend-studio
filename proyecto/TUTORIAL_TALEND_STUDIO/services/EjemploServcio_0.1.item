@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Services="http://www.talend.org/Services">
+  <Services:ServiceConnection xmi:id="_4t20MBn_Ee-Lhc_0r0pYjg" id="_4t2NIBn_Ee-Lhc_0r0pYjg" servicePort="_q-gLcBoDEe-Lhc_0r0pYjg">
+    <additionalInfo xmi:id="_0ON2cB3sEe-jbs3E71vt_Q" key="UseSAM" value="false"/>
+    <additionalInfo xmi:id="_0ON2cR3sEe-jbs3E71vt_Q" key="UseSL" value="false"/>
+    <additionalInfo xmi:id="_0ON2ch3sEe-jbs3E71vt_Q" key="Security.Basic" value="false"/>
+    <additionalInfo xmi:id="_0ON2cx3sEe-jbs3E71vt_Q" key="Security.SAML" value="false"/>
+    <additionalInfo xmi:id="_0ON2dB3sEe-jbs3E71vt_Q" key="Authorization" value="false"/>
+    <additionalInfo xmi:id="_0ON2dR3sEe-jbs3E71vt_Q" key="Encryption" value="false"/>
+    <additionalInfo xmi:id="_0ON2dh3sEe-jbs3E71vt_Q" key="UseServiceRegisrty" value="false"/>
+    <additionalInfo xmi:id="_0ON2dx3sEe-jbs3E71vt_Q" key="LogMessages" value="false"/>
+    <additionalInfo xmi:id="_0ON2eB3sEe-jbs3E71vt_Q" key="WsdlSchemaValidation" value="true"/>
+    <additionalInfo xmi:id="_0ON2eR3sEe-jbs3E71vt_Q" key="useBusinessCorrelation" value="false"/>
+  </Services:ServiceConnection>
+  <Services:ServicePort xmi:id="_q-gLcBoDEe-Lhc_0r0pYjg" name="EjemploServcioPortType" id="_4uAlMBn_Ee-Lhc_0r0pYjg" serviceOperation="_q-gLcRoDEe-Lhc_0r0pYjg"/>
+  <Services:ServiceOperation xmi:id="_q-gLcRoDEe-Lhc_0r0pYjg" label="EjemploServcioOperation-EjemploServcioPortType_EjemploServcioOperation" name="EjemploServcioOperation" id="_4uAlMRn_Ee-Lhc_0r0pYjg" referenceJobId="_qT5PkBoAEe-Lhc_0r0pYjg"/>
+</xmi:XMI>
